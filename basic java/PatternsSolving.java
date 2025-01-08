@@ -6,7 +6,7 @@ public class PatternsSolving {
         System.out.print("Enter No Rows: ");
         int rows = sc.nextInt();
         System.out.println("");
-        System.out.print("Enter No Rows: ");
+        System.out.print("Enter No Col: ");
         int col = sc.nextInt();
 
         // * Print Solid Rectangle
@@ -17,7 +17,7 @@ public class PatternsSolving {
             }
             System.out.println("");
         }
-
+        System.out.println();
         // * Print Holo Rectangle
 
         for (int i = 1; i <= rows; i++) {
