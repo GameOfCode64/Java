@@ -73,7 +73,7 @@ public class Homework2 {
                 } else {
                     System.out.print(" ");
                 }
-            }
+            } //
             System.out.println();
         }
     }
