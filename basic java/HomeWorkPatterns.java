@@ -10,40 +10,39 @@ public class HomeWorkPatterns {
 
         // * Print Rhombus
 
-        // for (int i = 1; i <= rows; i++) {
-        // for (int space = 1; space <= rows - i; space++) {
-        // System.out.print(" ");
-        // }
-        // for (int j = 1; j <= col; j++) {
-        // System.out.print("*");
-        // }
-        // System.out.println();
-        // }
-
-        // * Print a number pyramid.
-        // for (int i = 1; i <= rows; i++) {
-        // for (int space = 1; space <= rows - i; space++) {
-        // System.out.print(" ");
-        // }
-        // for (int j = 1; j <= i; j++) {
-        // System.out.print(" " + j);
-        // }
-        // System.out.println();
-        // }
-
-        // * Print a palindromic number pyramid
-
         for (int i = 1; i <= rows; i++) {
-            for (int space = 1; space <= rows - 1; space++) {
+            for (int space = 1; space <= rows - i; space++) {
                 System.out.print(" ");
             }
+            for (int j = 1; j <= col; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
+        // * Print a number pyramid.
+        for (int i = 1; i <= rows; i++) {
+            for (int space = 1; space <= rows - i; space++) {
+                System.out.print(" ");
+            }
             for (int j = 1; j <= i; j++) {
-                for (int z = 2; z <= j; z++) {
-                    System.out.print(z);
-                }
+                System.out.print(" " + j);
+            }
+            System.out.println();
+        }
+
+        // * Print a palindromic number pyramid
+        for (int i = 1; i <= rows; i++) {
+            for (int space = 1; space <= rows - i; space++) {
+                System.out.print(" ");
+            }
+            for (int j = i; j >= 1; j--) {
                 System.out.print(j);
             }
+            for (int j = 2; j <= i; j++) {
+                System.out.print(j);
+            }
+            System.out.println();
         }
 
     }
