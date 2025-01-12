@@ -108,5 +108,6 @@ public class HomeWork3 {
     public static void main(String[] argu) {
         System.out.println("HomeWork 3");
         System.out.println(calculateRadius(3));
+
     }
 }
