@@ -21,7 +21,6 @@ public class Array {
         // * another way of declare a array in java
 
         int marks2[] = { 85, 57, 77, 88 };
-
         System.out.println(marks2[0]);
 
         // * Take array as a input from user and search the element given element
