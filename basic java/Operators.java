@@ -34,7 +34,7 @@ public class Operators {
 
         // * Bitwise Operators
         int e = 5, f = 3;
-        System.out.println("e & f: " + (e & f));
+        System.out.println("e & f: " + (e & f)); 
         System.out.println("e | f: " + (e | f));
         System.out.println("e ^ f: " + (e ^ f));
         System.out.println("~e: " + (~e));
