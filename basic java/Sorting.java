@@ -7,6 +7,7 @@ public class Sorting {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
+                    
                 }
             }
         }
@@ -46,7 +47,11 @@ public class Sorting {
     }
 
     public static void main(String argu[]) {
+<<<<<<< HEAD
         int arr[] = { 3, 5, 2, 1, 4, 6 };
+=======
+        int arr[] = { 7, 3, 5, 2, 1, 4, 6,8 };
+>>>>>>> 7f37ccef91340a5d148794262db089c01a2405f5
 
         bubbleSort(arr);
         selectionSort(arr);
