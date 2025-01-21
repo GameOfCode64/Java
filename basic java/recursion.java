@@ -37,12 +37,10 @@ public class recursion {
         }
     }
 
-    //
-
     public static void main(String argu[]) {
-        // printNumber(5);
-        // printNum(1);
-        // System.out.println(printSum(5));
+        printNumber(5);
+        printNum(1);
+        System.out.println(printSum(5));
         System.out.println(Factorial(5));
     }
 }
