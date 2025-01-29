@@ -30,7 +30,6 @@ public class recursion4 {
         char currChar = str.charAt(indX);
         // to be
         findSubSequences(str, indX + 1, newString + currChar);
-
         // to not to be
         findSubSequences(str, indX + 1, newString);
     }
@@ -68,7 +67,7 @@ public class recursion4 {
         HashSet<String> set = new HashSet<>();
 
         // Normal
-        System.out.println("Day 4 & 5 & 6 of Recursion in Java");
+        System.out.println("Day 4 & 5 & 6 & 7 of Recursion in Java");
 
         // Variables
         String str = "aabcbdc";
