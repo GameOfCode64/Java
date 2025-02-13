@@ -20,6 +20,8 @@ public class Strings {
             System.out.print(firstName.charAt(i) + " ");
         }
 
+        // add
+
         // * 4, compare
 
         if (firstName.compareTo(LastName) == 0) {
