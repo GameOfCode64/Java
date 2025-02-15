@@ -27,7 +27,7 @@ public class AdvancedRecursion {
         int downPath = CountPaths(i + 1, j, n, m);
 
         // * Move Right
-        int rightPath = CountPaths(i, j + 1, downPath, m);
+        int rightPath = CountPaths(i, j + 1, n, m);
 
         return downPath + rightPath;
     }
