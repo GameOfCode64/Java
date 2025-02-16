@@ -47,7 +47,6 @@ public class Sorting {
     }
 
     public static void main(String argu[]) {
-
         int arr[] = { 3, 5, 2, 1, 4, 6 };
 
         bubbleSort(arr);
