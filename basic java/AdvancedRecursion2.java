@@ -6,7 +6,6 @@ public class AdvancedRecursion2 {
         if (n == m) {
             return 2;
         }
-
         if (n < m) {
             return 1;
         }
@@ -49,7 +48,7 @@ public class AdvancedRecursion2 {
         // add in subset
         subset.add(n);
         findSubSets(n - 1, subset);
-// test commit 
+        // test commit
         // remove in subset
         subset.remove(subset.size() - 1);
         findSubSets(n - 1, subset);
@@ -69,6 +68,7 @@ public class AdvancedRecursion2 {
         System.out.println(callGuests(n));
 
         // * print all subsets of a set of first n natural number
+        // * give inputs as n and empty subset;
         findSubSets(n, subset);
     }
 }
