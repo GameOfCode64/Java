@@ -9,6 +9,7 @@ public class AdvancedPatterns {
         int col = sc.nextInt();
 
         // * Butterfly Pattern
+        // * test comment 
 
         // Upper half
         for (int i = 1; i <= rows; i++) {
