@@ -10,7 +10,7 @@ public class Strings {
         String firstName = "Bhavishya";
         String LastName = "Tripathi";
         System.out.println(firstName + " " + LastName);
-
+// tesy comment 
         // * 2, length()
         System.out.println(firstName.length());
         System.out.println();
