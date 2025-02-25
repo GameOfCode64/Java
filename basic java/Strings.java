@@ -11,6 +11,7 @@ public class Strings {
         String LastName = "Tripathi";
         System.out.println(firstName + " " + LastName);
 // tesy comment 
+        // teat comment 
         // * 2, length()
         System.out.println(firstName.length());
         System.out.println();
