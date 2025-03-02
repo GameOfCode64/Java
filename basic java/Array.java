@@ -11,7 +11,7 @@ public class Array {
         marks[1] = 98;
         marks[2] = 99;
         marks[3] = 49;
-
+// print the index
         System.out.println(marks[0]);
 
         for (int i = 0; i <= 3; i++) {
