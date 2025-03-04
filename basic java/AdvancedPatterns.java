@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// test commit 
 public class AdvancedPatterns {
     public static void main(String[] argu) {
         Scanner sc = new Scanner(System.in);
