@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 // test commit 
+// test commit 3
 // test commit 2
 public class AdvancedPatterns {
     public static void main(String[] argu) {
